@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(90deg, skyblue, seagreen);
+    color: white;
+
+}
+
+
+h1{
+    font-size: 20px;
+}
+.main{
+    text-align: center;
+}
+
+#head{
+    text-align: center;
+    font-size: 60px;
+}
+#user{
+    
+    width: 80%;
+    height: 40px;
+}
+.name{
+    color: black;
+
+    height: 60px;
+    width: 400px;
+    font-size: 20px;
+    border: 2px solid white;
+    background: linear-gradient(90deg, skyblue, seagreen);
+}
+#quesDiv{
+    margin-top: 80px;
+}
+.gif{
+    width:50%;
+    height: 100vh;
+   
+}
+#answer{
+    margin-top: 100px;
+    color: blueviolet;
+}
+.image{
+    width: 30%;
+    height: 60vh;
+ 
+ 
+}
+.animateBall{
+    position: relative;
+    animation-duration: 0.5s;
+    animation-name: animate;
+  animation-iteration-count: 2;
+  animation-direction: alternate-reverse; 
+}
+@keyframes animate {
+    0%   { left:0px; top:0px;}
+    25%  { left:2%; top:2vh;}
+    50%  { left:2%; top:3vh;}
+    75%  { left:0px; top:4vh;}
+    100% { left:0px; top:0px;}
+  }
+
+button {
+    margin-top: 1em;
+}
+
+#fortune-btn{
+
+    color: black;
+    box-shadow: 0 0 20px #eee;
+    border: 2px solid white;
+    display: none;
+    width: 200px;
+    height: 50px;
+    margin-top: 200px;
+}
+
+#fortune{
+    margin-top: 100px;
+    color: orange;
+}
+li{
+    cursor: pointer;
+}
